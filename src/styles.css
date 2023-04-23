@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Rubik:wght@500&family=Ysabeau:wght@600&display=swap");
+.weather-info {
+  background-color: rgb(218, 206, 191);
+  padding: 0%;
+}
+div.card-body.weather-info.row {
+  --bs-card-spacer-y: -1rem;
+}
+div.row {
+  --bs-gutter-x: -1.5rem;
+}
+.container {
+  font-family: "Lora", serif;
+  font-family: "Rubik", sans-serif;
+}
+.temprature {
+  padding-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .temprature {
+    padding-bottom: 10px;
+  }
+}
